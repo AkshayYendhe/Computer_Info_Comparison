@@ -13,6 +13,8 @@
 		EF2CF071295D527A002DDB78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2CF06F295D527A002DDB78 /* Main.storyboard */; };
 		EF2CF073295D527B002DDB78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2CF072295D527B002DDB78 /* Assets.xcassets */; };
 		EF2CF076295D527B002DDB78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2CF074295D527B002DDB78 /* LaunchScreen.storyboard */; };
+		EF2CF07E295D59AA002DDB78 /* Computer_Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2CF07D295D59AA002DDB78 /* Computer_Struct.swift */; };
+		EF2CF080295D5DF7002DDB78 /* CompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2CF07F295D5DF7002DDB78 /* CompareViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EF2CF072295D527B002DDB78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF2CF075295D527B002DDB78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF2CF077295D527B002DDB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2CF07D295D59AA002DDB78 /* Computer_Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Computer_Struct.swift; sourceTree = "<group>"; };
+		EF2CF07F295D5DF7002DDB78 /* CompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				EF2CF069295D527A002DDB78 /* AppDelegate.swift */,
 				EF2CF06B295D527A002DDB78 /* SceneDelegate.swift */,
 				EF2CF06D295D527A002DDB78 /* ViewController.swift */,
+				EF2CF07F295D5DF7002DDB78 /* CompareViewController.swift */,
 				EF2CF06F295D527A002DDB78 /* Main.storyboard */,
 				EF2CF072295D527B002DDB78 /* Assets.xcassets */,
 				EF2CF074295D527B002DDB78 /* LaunchScreen.storyboard */,
 				EF2CF077295D527B002DDB78 /* Info.plist */,
+				EF2CF07D295D59AA002DDB78 /* Computer_Struct.swift */,
 			);
 			path = Computer_Info_Comparison;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				EF2CF06E295D527A002DDB78 /* ViewController.swift in Sources */,
 				EF2CF06A295D527A002DDB78 /* AppDelegate.swift in Sources */,
+				EF2CF080295D5DF7002DDB78 /* CompareViewController.swift in Sources */,
 				EF2CF06C295D527A002DDB78 /* SceneDelegate.swift in Sources */,
+				EF2CF07E295D59AA002DDB78 /* Computer_Struct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
